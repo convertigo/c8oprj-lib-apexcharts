@@ -1,0 +1,105 @@
+↓Read_CSV [steps.ReadCSVStep-1666269293457]: 
+  dataFile: '''.//data/heatmap_basique.csv'''
+  separator: ;
+  tagLineName: lines
+↓jSimpleSource [steps.SimpleSourceStep-1666276916138]: 
+  sourceDefinition: 
+    - xmlizable: 
+      - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+      - com.twinsoft.convertigo.beans.common.XMLVector: 
+        - java.lang.String: 
+          - ↑value: 1666269293457
+        - java.lang.String: 
+          - ↑value: ./lines
+  variableName: lines
+↓jSimpleSource_1 [steps.SimpleSourceStep-1666277173166]: 
+  sourceDefinition: 
+    - xmlizable: 
+      - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+      - com.twinsoft.convertigo.beans.common.XMLVector: 
+        - java.lang.String: 
+          - ↑value: 1666269293457
+        - java.lang.String: 
+          - ↑value: ./lines[1]
+  variableName: columns
+↓JsonSource [steps.JsonSourceStep-1666277542736]: 
+  sourceDefinition: 
+    - xmlizable: 
+      - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+      - com.twinsoft.convertigo.beans.common.XMLVector: 
+        - java.lang.String: 
+          - ↑value: 1666269293457
+        - java.lang.String: 
+          - ↑value: ./lines
+  variableName: json
+↓Array [steps.JsonArrayStep-1666277065951]: 
+  isEnabled: false
+  key: 
+    - xmlizable: 
+      - ↑classname: com.twinsoft.convertigo.beans.steps.SmartType
+      - SmartType: 
+        - ↑mode: PLAIN
+        - →→: series
+  ↓jIterator [steps.SimpleIteratorStep-1666277003217]: 
+    expression: columns
+    ↓Object [steps.JsonObjectStep-1666277048724]: 
+      ↓Field [steps.JsonFieldStep-1666277134948]: 
+        key: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.steps.SmartType
+            - SmartType: 
+              - ↑mode: PLAIN
+              - →→: name
+↓Sequence_JS [steps.SimpleStep-1666277215906]: 
+  expression: |
+    'log.warn("json")
+    log.warn(JSON.stringify(json))
+    log.warn(json.length)
+    
+    var xAxisLabels = json[0].lines.col;
+    xAxisLabels.splice(0, 1)
+    log.warn("xAxisLabels ")
+    log.warn(xAxisLabels)
+    var serie = [];
+    for(var i = 1; i < json.length; i++) {
+    	serie.push({
+    		name: json[i].lines.col[0],
+    		// name: i,
+    		data: []
+    	})
+    //	
+    	for(var j = 1; j < json[i].lines.col.length; j++) {
+    //		log.warn(xAxisLabels[j - 1])
+    //		log.warn(json[i].lines.col[j])
+    		if(serie[i-1] != undefined) {
+    			serie[i-1].data.push({
+    				// x: xAxisLabels[j-1],
+    				// x: i,
+    				x: xAxisLabels[j - 1],
+    				y: json[i].lines.col[j].replace(",", ".")
+    			})
+    			
+    		} else {
+    			log.warn("else")
+    		}
+    	}
+    	
+    }
+    
+    log.warn("serie")
+    log.warn(JSON.stringify(serie))
+    
+    // serie = JSON.parse(serie)
+    
+    
+    //log.warn("xAxisLabels")
+    //log.warn(xAxisLabels)
+    //
+    //log.warn("lines")
+    //log.warn(lines)
+    //log.warn("columns")
+    //log.warn(columns)'
+↓series [steps.ElementStep-1666280894251]: 
+  expression: serie
+  nodeName: series
+↓csv [variables.RequestableVariable-1666270072837]: 

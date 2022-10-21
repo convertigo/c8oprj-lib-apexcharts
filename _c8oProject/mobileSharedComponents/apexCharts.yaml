@@ -1,0 +1,195 @@
+↓SharedComponent_Event [ngx.components.UISharedComponentEvent-1666262566520]: 
+  componentEvent: onInit
+  ↓importNgApexCharts [ngx.components.UICustomAction-1666262616186]: 
+    module_ng_imports: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+        - com.twinsoft.convertigo.beans.common.XMLVector: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+            - com.twinsoft.convertigo.beans.common.XMLVector: 
+              - java.lang.String: 
+                - ↑value: NgApexchartsModule
+    module_ts_imports: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+        - com.twinsoft.convertigo.beans.common.XMLVector: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+            - com.twinsoft.convertigo.beans.common.XMLVector: 
+              - java.lang.String: 
+                - ↑value: NgApexchartsModule
+              - java.lang.String: 
+                - ↑value: ng-apexcharts
+    package_dependencies: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+        - com.twinsoft.convertigo.beans.common.XMLVector: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+            - com.twinsoft.convertigo.beans.common.XMLVector: 
+              - java.lang.String: 
+                - ↑value: apexcharts
+              - java.lang.String: 
+                - ↑value: 3.36.0
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+            - com.twinsoft.convertigo.beans.common.XMLVector: 
+              - java.lang.String: 
+                - ↑value: |
+                  ng-apexcharts
+                  
+              - java.lang.String: 
+                - ↑value: 1.7.1
+↓Tag [ngx.components.UIElement-1666262765713]: 
+  identifier: apexChart
+  tagName: apx-chart
+  ↓Attr3 [ngx.components.UIAttribute-1666268365676]: 
+    attrName: '[annotations]'
+    attrValue: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+        - MobileSmartSourceType: source:{"filter":"Shared","project":"lib_apexcharts","input":"","model":{"data":[{"priority":1666262546239,"regular":true}],"path":"?.annotations","prefix":"","suffix":"","custom":"","useCustom":false}}
+  ↓Attr1 [ngx.components.UIAttribute-1666263068699]: 
+    attrName: '[chart]'
+    attrValue: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+        - MobileSmartSourceType: source:{"filter":"Shared","project":"lib_apexcharts","input":"","model":{"data":[{"priority":1666262546239,"regular":true}],"path":"?.chart","prefix":"","suffix":"","custom":"","useCustom":false}}
+  ↓Attr4 [ngx.components.UIAttribute-1666268403786]: 
+    attrName: '[colors]'
+    attrValue: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+        - MobileSmartSourceType: source:{"filter":"Shared","project":"lib_apexcharts","input":"","model":{"data":[{"priority":1666262546239,"regular":true}],"path":"?.colors","prefix":"","suffix":"","custom":"","useCustom":false}}
+  ↓Attr5 [ngx.components.UIAttribute-1666268421940]: 
+    attrName: '[dataLabels]'
+    attrValue: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+        - MobileSmartSourceType: source:{"filter":"Shared","project":"lib_apexcharts","input":"","model":{"data":[{"priority":1666262546239,"regular":true}],"path":"?.dataLabels","prefix":"","suffix":"","custom":"","useCustom":false}}
+  ↓Attr6 [ngx.components.UIAttribute-1666268443063]: 
+    attrName: '[fill]'
+    attrValue: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+        - MobileSmartSourceType: source:{"filter":"Shared","project":"lib_apexcharts","input":"","model":{"data":[{"priority":1666262546239,"regular":true}],"path":"?.fill","prefix":"","suffix":"","custom":"","useCustom":false}}
+  ↓Attr7 [ngx.components.UIAttribute-1666268458937]: 
+    attrName: '[grid]'
+    attrValue: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+        - MobileSmartSourceType: source:{"filter":"Shared","project":"lib_apexcharts","input":"","model":{"data":[{"priority":1666262546239,"regular":true}],"path":"?.grid","prefix":"","suffix":"","custom":"","useCustom":false}}
+  ↓Attr8 [ngx.components.UIAttribute-1666268475409]: 
+    attrName: '[labels]'
+    attrValue: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+        - MobileSmartSourceType: source:{"filter":"Shared","project":"lib_apexcharts","input":"","model":{"data":[{"priority":1666262546239,"regular":true}],"path":"?.labels","prefix":"","suffix":"","custom":"","useCustom":false}}
+  ↓Attr9 [ngx.components.UIAttribute-1666268492899]: 
+    attrName: '[legend]'
+    attrValue: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+        - MobileSmartSourceType: source:{"filter":"Shared","project":"lib_apexcharts","input":"","model":{"data":[{"priority":1666262546239,"regular":true}],"path":"?.legend","prefix":"","suffix":"","custom":"","useCustom":false}}
+  ↓Attr10 [ngx.components.UIAttribute-1666268508788]: 
+    attrName: '[plotOptions]'
+    attrValue: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+        - MobileSmartSourceType: source:{"filter":"Shared","project":"lib_apexcharts","input":"","model":{"data":[{"priority":1666262546239,"regular":true}],"path":"?.plotOptions","prefix":"","suffix":"","custom":"","useCustom":false}}
+  ↓Attr11 [ngx.components.UIAttribute-1666268529797]: 
+    attrName: '[responsive]'
+    attrValue: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+        - MobileSmartSourceType: source:{"filter":"Shared","project":"lib_apexcharts","input":"","model":{"data":[{"priority":1666262546239,"regular":true}],"path":"?.responsive","prefix":"","suffix":"","custom":"","useCustom":false}}
+  ↓Attr2 [ngx.components.UIAttribute-1666263107418]: 
+    attrName: '[series]'
+    attrValue: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+        - MobileSmartSourceType: source:{"filter":"Shared","project":"lib_apexcharts","input":"","model":{"data":[{"priority":1666262546239,"regular":true}],"path":"?.series","prefix":"","suffix":"","custom":"","useCustom":false}}
+  ↓Attr12 [ngx.components.UIAttribute-1666268551647]: 
+    attrName: '[states]'
+    attrValue: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+        - MobileSmartSourceType: source:{"filter":"Shared","project":"lib_apexcharts","input":"","model":{"data":[{"priority":1666262546239,"regular":true}],"path":"?.states","prefix":"","suffix":"","custom":"","useCustom":false}}
+  ↓Attr13 [ngx.components.UIAttribute-1666268571897]: 
+    attrName: '[stroke]'
+    attrValue: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+        - MobileSmartSourceType: source:{"filter":"Shared","project":"lib_apexcharts","input":"","model":{"data":[{"priority":1666262546239,"regular":true}],"path":"?.stroke","prefix":"","suffix":"","custom":"","useCustom":false}}
+  ↓Attr14 [ngx.components.UIAttribute-1666268588703]: 
+    attrName: '[subtitle]'
+    attrValue: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+        - MobileSmartSourceType: source:{"filter":"Shared","project":"lib_apexcharts","input":"","model":{"data":[{"priority":1666262546239,"regular":true}],"path":"?.subtitle","prefix":"","suffix":"","custom":"","useCustom":false}}
+  ↓Attr15 [ngx.components.UIAttribute-1666268609040]: 
+    attrName: '[theme]'
+    attrValue: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+        - MobileSmartSourceType: source:{"filter":"Shared","project":"lib_apexcharts","input":"","model":{"data":[{"priority":1666262546239,"regular":true}],"path":"?.theme","prefix":"","suffix":"","custom":"","useCustom":false}}
+  ↓Attr [ngx.components.UIAttribute-1666262804660]: 
+    attrName: '[title]'
+    attrValue: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+        - MobileSmartSourceType: source:{"filter":"Shared","project":"lib_apexcharts","input":"","model":{"data":[{"priority":1666262546239,"regular":true}],"path":"?.title","prefix":"","suffix":"","custom":"","useCustom":false}}
+  ↓Attr16 [ngx.components.UIAttribute-1666268628946]: 
+    attrName: '[tooltip]'
+    attrValue: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+        - MobileSmartSourceType: source:{"filter":"Shared","project":"lib_apexcharts","input":"","model":{"data":[{"priority":1666262546239,"regular":true}],"path":"?.tooltip","prefix":"","suffix":"","custom":"","useCustom":false}}
+  ↓Attr17 [ngx.components.UIAttribute-1666268643865]: 
+    attrName: '[xaxis]'
+    attrValue: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+        - MobileSmartSourceType: source:{"filter":"Shared","project":"lib_apexcharts","input":"","model":{"data":[{"priority":1666262546239,"regular":true}],"path":"?.xaxis","prefix":"","suffix":"","custom":"","useCustom":false}}
+  ↓Attr18 [ngx.components.UIAttribute-1666268660997]: 
+    attrName: '[yaxis]'
+    attrValue: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+        - MobileSmartSourceType: source:{"filter":"Shared","project":"lib_apexcharts","input":"","model":{"data":[{"priority":1666262546239,"regular":true}],"path":"?.yaxis","prefix":"","suffix":"","custom":"","useCustom":false}}
+↓annotations [ngx.components.UICompVariable-1666267566409]: 
+↓chart [ngx.components.UICompVariable-1666263083944]: 
+  comment: Object
+↓colors [ngx.components.UICompVariable-1666267721011]: 
+  comment: Array of hexadecimal string
+↓dataLabels [ngx.components.UICompVariable-1666267770393]: 
+  comment: Object
+↓fill [ngx.components.UICompVariable-1666267950832]: 
+  comment: Object
+↓grid [ngx.components.UICompVariable-1666268163425]: 
+  comment: Object
+↓labels [ngx.components.UICompVariable-1666267895924]: 
+  comment: Array of strings
+↓legend [ngx.components.UICompVariable-1666267928141]: 
+  comment: Object
+↓plotOptions [ngx.components.UICompVariable-1666268014754]: 
+  comment: Object
+↓responsive [ngx.components.UICompVariable-1666268075357]: 
+  comment: Object
+↓series [ngx.components.UICompVariable-1666263084971]: 
+  comment: Array of objects
+↓states [ngx.components.UICompVariable-1666268202597]: 
+  comment: Object
+↓stroke [ngx.components.UICompVariable-1666267783825]: 
+  comment: Object
+↓subtitle [ngx.components.UICompVariable-1666268283826]: 
+↓theme [ngx.components.UICompVariable-1666268323261]: 
+↓title [ngx.components.UICompVariable-1666262815145]: 
+  comment: Object
+↓tooltip [ngx.components.UICompVariable-1666267993681]: 
+  comment: Object
+↓xaxis [ngx.components.UICompVariable-1666268098633]: 
+  comment: Object
+↓yaxis [ngx.components.UICompVariable-1666268147506]: 
+  comment: Object
