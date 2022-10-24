@@ -1,0 +1,310 @@
+↑isRoot: true
+comment: My First Page as root page
+preloadPriority: high
+scriptContent: 
+  - xmlizable: 
+    - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+    - com.twinsoft.convertigo.beans.common.FormatedContent: 
+      →: |
+        /*Begin_c8o_PageImport*/
+        /*End_c8o_PageImport*/
+        /*Begin_c8o_PageDeclaration*/
+        	/*End_c8o_PageDeclaration*/
+        /*Begin_c8o_PageConstructor*/
+        		/*End_c8o_PageConstructor*/
+        /*Begin_c8o_PageFunction*/
+        	/*End_c8o_PageFunction*/
+        
+segment: path-to-xfirst
+title: First page
+↓Header [ngx.components.UIDynamicElement-1491634212350]: 
+  beanData: '{"ionBean":"Header"}'
+  comment: Page header
+  tagName: ion-header
+  ↓ToolBar [ngx.components.UIDynamicElement-1491634231108]: 
+    beanData: '{"ionBean":"ToolBar"}'
+    tagName: ion-toolbar
+    ↓ButtonSet1 [ngx.components.UIDynamicElement-1588171103814]: 
+      beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:start"}'
+      tagName: ion-buttons
+      ↓BackButton [ngx.components.UIDynamicElement-1643993281257]: 
+        beanData: '{"ionBean":"BackButton"}'
+        tagName: ion-back-button
+      ↓MenuButton [ngx.components.UIDynamicElement-1588172846908]: 
+        beanData: '{"ionBean":"MenuButton"}'
+        tagName: ion-menu-button
+    ↓BarTitle [ngx.components.UIDynamicElement-1491634265317]: 
+      beanData: '{"ionBean":"BarTitle"}'
+      tagName: ion-title
+      ↓Text [ngx.components.UIText-1491634275121]: 
+        textValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:Page
+    ↓ButtonSet2 [ngx.components.UIDynamicElement-1588170811054]: 
+      beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:end"}'
+      tagName: ion-buttons
+      ↓Button [ngx.components.UIDynamicElement-1588170817806]: 
+        beanData: '{"ionBean":"Button"}'
+        tagName: ion-button
+        ↓Icon [ngx.components.UIDynamicElement-1588170831166]: 
+          beanData: '{"ionBean":"Icon","IconName":"plain:ellipsis-vertical"}'
+          tagName: ion-icon
+↓Content [ngx.components.UIDynamicElement-1489674805352]: 
+  beanData: '{"ionBean":"Content"}'
+  comment: Page content
+  tagName: ion-content
+  ↓Grid [ngx.components.UIDynamicElement-1666358180976]: 
+    beanData: '{"ionBean":"Grid"}'
+    tagName: ion-grid
+    ↓GridRow [ngx.components.UIDynamicElement-1666358180978]: 
+      beanData: '{"ionBean":"GridRow"}'
+      tagName: ion-row
+      ↓GridCol [ngx.components.UIDynamicElement-1666358180980]: 
+        beanData: '{"ionBean":"GridCol"}'
+        tagName: ion-col
+        ↓Directive [ngx.components.UIControlDirective-1666621951199]: 
+          directiveName: If
+          directiveSource: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: script:this.local.series != undefined
+          ↓UseSharedComponent [ngx.components.UIUseShared-1666623179776]: 
+            sharedcomponent: lib_apexcharts.Application.NgxApp.apexCharts
+            ↓title [ngx.components.UIUseVariable-1666623179794]: 
+              varValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: |
+                      'script:{
+                                text: ''HeatMap Chart with Color Range Sample''
+                              }'
+            ↓chart [ngx.components.UIUseVariable-1666623179797]: 
+              varValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: |
+                      'script:{
+                                height: ''600px'',
+                                type: ''heatmap''
+                       }'
+            ↓series [ngx.components.UIUseVariable-1666623179800]: 
+              varValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: script:this.local.series
+            ↓annotations [ngx.components.UIUseVariable-1666623179803]: 
+              varValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: script:''
+            ↓colors [ngx.components.UIUseVariable-1666623179806]: 
+              comment: Array of hexadecimal string
+              varValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: script:''
+            ↓dataLabels [ngx.components.UIUseVariable-1666623179809]: 
+              comment: Object
+              varValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: 'script:{ enabled: false }'
+            ↓fill [ngx.components.UIUseVariable-1666623179812]: 
+              comment: Object
+              varValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: script:''
+            ↓grid [ngx.components.UIUseVariable-1666623179815]: 
+              comment: Object
+              varValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: script:''
+            ↓labels [ngx.components.UIUseVariable-1666623179818]: 
+              comment: Array of strings
+              varValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: script:''
+            ↓legend [ngx.components.UIUseVariable-1666623179821]: 
+              comment: Object
+              varValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: script:''
+            ↓plotOptions [ngx.components.UIUseVariable-1666623179824]: 
+              comment: Object
+              varValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: |
+                      'script:{
+                          heatmap: {
+                                  shadeIntensity: 0,
+                                  radius: 0,
+                                  useFillColorAsStroke: true,
+                                  colorScale: {
+                                    ranges: [{
+                                        from: 0,
+                                        to: 0.2,
+                                        name: ''low'',
+                                        color: ''#01FD2E''
+                                      },
+                                      {
+                                        from: 0.2,
+                                        to: 0.3,
+                                        name: ''medium 1'',
+                                        color: ''#01E529''
+                                      },
+                                      {
+                                        from: 0.3,
+                                        to: 0.4,
+                                        name: ''medium 2'',
+                                        color: ''#2ED000''
+                                      },
+                                      {
+                                        from: 0.4,
+                                        to: 0.5,
+                                        name: ''medium 3'',
+                                        color: ''#45BA00''
+                                      },
+                                      {
+                                          from: 0.5,
+                                          to: 0.6,
+                                          name: ''mediuem 4'',
+                                          color: ''#5CA200''
+                                      },
+                                      {
+                                          from: 0.6,
+                                          to: 0.7,
+                                          name: ''extreme'',
+                                          color: ''#738A00''
+                                      },
+                                      {
+                                          from: 0.7,
+                                          to: 0.8,
+                                          name: ''extreme 2'',
+                                          color: ''#8B7300''
+                                      },
+                                      {
+                                          from: 0.8,
+                                          to: 0.9,
+                                          name: ''extreme 3'',
+                                          color: ''#A25C00''
+                                      },
+                                      {
+                                          from: 0.9,
+                                          to: 1.0,
+                                          name: ''extreme 4'',
+                                          color: ''#B94500''
+                                      },
+                                      {
+                                          from: 1.0,
+                                          to: 1.3,
+                                          name: ''extreme 5'',
+                                          color: ''#D02E00''
+                                      },
+                                      {
+                                          from: 1.3,
+                                          to: 1.5,
+                                          name: ''extreme 6'',
+                                          color: ''#E71600''
+                                      },
+                                      {
+                                          from: 1.5,
+                                          to: 3,
+                                          name: ''extreme 7'',
+                                          color: ''#FE0000''
+                                      },
+                                    ]
+                                  }
+                                }
+                      }'
+            ↓responsive [ngx.components.UIUseVariable-1666623179827]: 
+              comment: Object
+              varValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: script:''
+            ↓states [ngx.components.UIUseVariable-1666623179830]: 
+              comment: Object
+              varValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: script:''
+            ↓stroke [ngx.components.UIUseVariable-1666623179833]: 
+              comment: Object
+              varValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: script:''
+            ↓subtitle [ngx.components.UIUseVariable-1666623179836]: 
+              varValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: script:''
+            ↓theme [ngx.components.UIUseVariable-1666623179839]: 
+              varValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: script:''
+            ↓tooltip [ngx.components.UIUseVariable-1666623179842]: 
+              comment: Object
+              varValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: script:''
+            ↓xaxis [ngx.components.UIUseVariable-1666623179845]: 
+              comment: Object
+              varValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: script:''
+            ↓yaxis [ngx.components.UIUseVariable-1666623179848]: 
+              comment: Object
+              varValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: script:''
+↓Footer [ngx.components.UIDynamicElement-1491634242460]: 
+  beanData: '{"ionBean":"Footer"}'
+  comment: Page footer
+  tagName: ion-footer
+  ↓ToolBar [ngx.components.UIDynamicElement-1491634317538]: 
+    beanData: '{"ionBean":"ToolBar"}'
+    tagName: ion-toolbar
+    ↓ButtonSet [ngx.components.UIDynamicElement-1588170246138]: 
+      beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:start"}'
+      tagName: ion-buttons
+      ↓Button1 [ngx.components.UIDynamicElement-1491634332730]: 
+        beanData: '{"ionBean":"Button"}'
+        tagName: ion-button
+        ↓Text [ngx.components.UIText-1491634340354]: 
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:Action 1
+    ↓ButtonSet1 [ngx.components.UIDynamicElement-1588170269871]: 
+      beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:end"}'
+      tagName: ion-buttons
+      ↓Button2 [ngx.components.UIDynamicElement-1491634376874]: 
+        beanData: '{"ionBean":"Button"}'
+        tagName: ion-button
+        ↓Text [ngx.components.UIText-1491634383107]: 
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:Action 2
+↓PageEvent [ngx.components.UIPageEvent-1666280996494]: 
+  viewEvent: onWillEnter
+  ↓CallSequence [ngx.components.UIDynamicAction-1666281005528]: 
+    beanData: '{"ionBean":"CallSequenceAction","requestable":"plain:lib_apexcharts.heatmapData"}'
+    ↓SetLocal [ngx.components.UIDynamicAction-1666623369463]: 
+      beanData: |
+        '{
+         "ionBean": "SetLocalAction",
+         "Property": "plain:series",
+         "Value": "script:JSON.parse(parent.out.series)"
+        }'

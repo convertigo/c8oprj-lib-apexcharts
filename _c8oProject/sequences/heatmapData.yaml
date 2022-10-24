@@ -32,29 +32,11 @@
         - java.lang.String: 
           - ↑value: ./lines
   variableName: json
-↓Array [steps.JsonArrayStep-1666277065951]: 
-  isEnabled: false
-  key: 
-    - xmlizable: 
-      - ↑classname: com.twinsoft.convertigo.beans.steps.SmartType
-      - SmartType: 
-        - ↑mode: PLAIN
-        - →→: series
-  ↓jIterator [steps.SimpleIteratorStep-1666277003217]: 
-    expression: columns
-    ↓Object [steps.JsonObjectStep-1666277048724]: 
-      ↓Field [steps.JsonFieldStep-1666277134948]: 
-        key: 
-          - xmlizable: 
-            - ↑classname: com.twinsoft.convertigo.beans.steps.SmartType
-            - SmartType: 
-              - ↑mode: PLAIN
-              - →→: name
-↓Sequence_JS [steps.SimpleStep-1666277215906]: 
+↓computeData [steps.SimpleStep-1666277215906]: 
   expression: |
-    'log.warn("json")
-    log.warn(JSON.stringify(json))
-    log.warn(json.length)
+    '//log.warn("json")
+    //log.warn(JSON.stringify(json))
+    //log.warn(json.length)
     
     var xAxisLabels = json[0].lines.col;
     xAxisLabels.splice(0, 1)
@@ -86,20 +68,10 @@
     	
     }
     
-    log.warn("serie")
-    log.warn(JSON.stringify(serie))
+    //log.warn("serie")
+    //log.warn(JSON.stringify(serie))
     
-    // serie = JSON.parse(serie)
-    
-    
-    //log.warn("xAxisLabels")
-    //log.warn(xAxisLabels)
-    //
-    //log.warn("lines")
-    //log.warn(lines)
-    //log.warn("columns")
-    //log.warn(columns)'
+    serie = JSON.stringify(serie)'
 ↓series [steps.ElementStep-1666280894251]: 
   expression: serie
   nodeName: series
-↓csv [variables.RequestableVariable-1666270072837]: 

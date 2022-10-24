@@ -65,7 +65,7 @@ componentScriptContent:
 tplProjectName: mobilebuilder_tpl_8_0_0_ngx
 ↓Menu [ngx.components.UIDynamicMenu-1500890597895]: 🗏 mobileMenus/Menu.yaml
 ↓apexCharts [ngx.components.UISharedRegularComponent-1666262546239]: 🗏 mobileSharedComponents/apexCharts.yaml
-↓Page [ngx.components.PageComponent-1500538678074]: 🗏 mobilePages/Page.yaml
+↓Sample [ngx.components.PageComponent-1500538678074]: 🗏 mobilePages/Sample.yaml
 ↓Style [ngx.components.UIStyle-1491635462437]: 
   comment: You can add some global application styles here
   styleContent: 
