@@ -21,6 +21,13 @@
                 - ↑value: NgApexchartsModule
               - java.lang.String: 
                 - ↑value: ng-apexcharts
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+            - com.twinsoft.convertigo.beans.common.XMLVector: 
+              - java.lang.String: 
+                - ↑value: ApexAnnotations
+              - java.lang.String: 
+                - ↑value: ng-apexcharts
     package_dependencies: 
       - xmlizable: 
         - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
@@ -92,6 +99,12 @@
       - xmlizable: 
         - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
         - MobileSmartSourceType: source:{"filter":"Shared","project":"lib_apexcharts","input":"","model":{"data":[{"priority":1666262546239,"regular":true}],"path":"?.legend","prefix":"","suffix":"","custom":"","useCustom":false}}
+  ↓_markers_ [ngx.components.UIAttribute-1682078936496]: 
+    attrName: '[markers]'
+    attrValue: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+        - MobileSmartSourceType: source:{"filter":"Shared","project":"lib_apexcharts","input":"","model":{"data":[{"priority":1666262546239,"regular":true}],"path":"?.markers","prefix":"","suffix":"","custom":"","useCustom":false}}
   ↓Attr10 [ngx.components.UIAttribute-1666268508788]: 
     attrName: '[plotOptions]'
     attrValue: 
@@ -193,3 +206,4 @@
   comment: Object
 ↓yaxis [ngx.components.UICompVariable-1666268147506]: 
   comment: Object
+↓markers [ngx.components.UICompVariable-1682078963263]: 
