@@ -16,7 +16,7 @@ scriptContent:
         	/*End_c8o_PageFunction*/
         
 segment: path-to-xfirst
-title: Sample
+title: Home
 ↓Header [ngx.components.UIDynamicElement-1491634212350]: 
   beanData: '{"ionBean":"Header"}'
   comment: Page header
@@ -63,174 +63,12 @@ title: Sample
       ↓colLine [ngx.components.UIDynamicElement-1666358180980]: 
         beanData: '{"ionBean":"GridCol"}'
         tagName: ion-col
-        ↓UseSharedComponent [ngx.components.UIUseShared-1666623179776]: 
-          isEnabled: false
-          sharedcomponent: lib_apexcharts.Application.NgxApp.apexCharts
-          ↓title [ngx.components.UIUseVariable-1666623179794]: 
-            varValue: 
-              - xmlizable: 
-                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
-                - MobileSmartSourceType: |
-                    'script:{
-                              text: ''HeatMap Chart with Color Range Sample''
-                            }'
-          ↓chart [ngx.components.UIUseVariable-1666623179797]: 
-            varValue: 
-              - xmlizable: 
-                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
-                - MobileSmartSourceType: |
-                    'script:{
-                        type: ''line''
-                      }'
-          ↓series [ngx.components.UIUseVariable-1666623179800]: 
-            varValue: 
-              - xmlizable: 
-                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
-                - MobileSmartSourceType: |
-                    'script:[{
-                        name: ''sales'',
-                        data: [30,40,35,50,49,60,70,91,125]
-                      }]'
-          ↓annotations [ngx.components.UIUseVariable-1666623179803]: 
-            varValue: 
-              - xmlizable: 
-                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
-                - MobileSmartSourceType: |
-                    'script:{
-                      yaxis: [
-                        {
-                          y: 60,
-                          borderColor: ''#00E396'',
-                          label: {
-                            borderColor: ''#00E396'',
-                            style: {
-                              color: ''#fff'',
-                              background: ''#00E396''
-                            },
-                            text: ''Y-axis annotation on 60''
-                          }
-                        }
-                      ],
-                      xaxis: [{
-                        x: 1993,
-                        x2: 1996,
-                        fillColor: ''#B3F7CA'',
-                        label: {
-                          text: ''Evènement en cours''
-                        }
-                      },
-                      {
-                        x: 1997,
-                        borderColor: ''#775DD0'',
-                        label: {
-                          style: {
-                            color: ''#000''
-                          },
-                          text: ''Evènement fini''
-                        }
-                      }]
-                    }'
-          ↓colors [ngx.components.UIUseVariable-1666623179806]: 
-            comment: Array of hexadecimal string
-            varValue: 
-              - xmlizable: 
-                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
-                - MobileSmartSourceType: script:''
-          ↓dataLabels [ngx.components.UIUseVariable-1666623179809]: 
-            comment: Object
-            varValue: 
-              - xmlizable: 
-                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
-                - MobileSmartSourceType: 'script:{ enabled: false }'
-          ↓fill [ngx.components.UIUseVariable-1666623179812]: 
-            comment: Object
-            varValue: 
-              - xmlizable: 
-                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
-                - MobileSmartSourceType: script:''
-          ↓grid [ngx.components.UIUseVariable-1666623179815]: 
-            comment: Object
-            varValue: 
-              - xmlizable: 
-                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
-                - MobileSmartSourceType: script:''
-          ↓labels [ngx.components.UIUseVariable-1666623179818]: 
-            comment: Array of strings
-            varValue: 
-              - xmlizable: 
-                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
-                - MobileSmartSourceType: script:''
-          ↓legend [ngx.components.UIUseVariable-1666623179821]: 
-            comment: Object
-            varValue: 
-              - xmlizable: 
-                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
-                - MobileSmartSourceType: script:''
-          ↓plotOptions [ngx.components.UIUseVariable-1666623179824]: 
-            comment: Object
-            varValue: 
-              - xmlizable: 
-                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
-                - MobileSmartSourceType: plain:
-          ↓responsive [ngx.components.UIUseVariable-1666623179827]: 
-            comment: Object
-            varValue: 
-              - xmlizable: 
-                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
-                - MobileSmartSourceType: script:''
-          ↓states [ngx.components.UIUseVariable-1666623179830]: 
-            comment: Object
-            varValue: 
-              - xmlizable: 
-                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
-                - MobileSmartSourceType: script:''
-          ↓stroke [ngx.components.UIUseVariable-1666623179833]: 
-            comment: Object
-            varValue: 
-              - xmlizable: 
-                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
-                - MobileSmartSourceType: script:''
-          ↓subtitle [ngx.components.UIUseVariable-1666623179836]: 
-            varValue: 
-              - xmlizable: 
-                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
-                - MobileSmartSourceType: script:''
-          ↓theme [ngx.components.UIUseVariable-1666623179839]: 
-            varValue: 
-              - xmlizable: 
-                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
-                - MobileSmartSourceType: script:''
-          ↓tooltip [ngx.components.UIUseVariable-1666623179842]: 
-            comment: Object
-            varValue: 
-              - xmlizable: 
-                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
-                - MobileSmartSourceType: script:''
-          ↓xaxis [ngx.components.UIUseVariable-1666623179845]: 
-            comment: Object
-            varValue: 
-              - xmlizable: 
-                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
-                - MobileSmartSourceType: |
-                    'script:{
-                        categories: [1991,1992,1993,1994,1995,1996,1997, 1998,1999]
-                      }'
-          ↓yaxis [ngx.components.UIUseVariable-1666623179848]: 
-            comment: Object
-            varValue: 
-              - xmlizable: 
-                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
-                - MobileSmartSourceType: script:''
-        ↓Directive [ngx.components.UIControlDirective-1666621951199]: 
-          directiveName: If
-          directiveSource: 
-            - xmlizable: 
-              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
-              - MobileSmartSourceType: script:this.local.series != undefined
-          isEnabled: false
         ↓CardContainer [ngx.components.UIDynamicElement-1682074286066]: 
           beanData: '{"ionBean":"Card"}'
           tagName: ion-card
+          ↓LazyImage [ngx.components.UIDynamicElement-1685720839234]: 
+            beanData: '{"ionBean":"LazyImage","Src":"source:{\"filter\":\"Asset\",\"project\":\"lib_apexcharts\",\"input\":\"\",\"model\":{\"data\":[{\"asset\":\"''assets\\\/images\\\/line-chart.png''\"}],\"path\":\"\",\"prefix\":\"\",\"suffix\":\"\",\"custom\":\"\",\"useCustom\":false}}"}'
+            tagName: ion-img
           ↓CardHeader [ngx.components.UIDynamicElement-1682074286047]: 
             beanData: '{"ionBean":"CardHeader"}'
             tagName: ion-card-header
@@ -244,7 +82,7 @@ title: Sample
                   textValue: 
                     - xmlizable: 
                       - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
-                      - MobileSmartSourceType: plain:Line
+                      - MobileSmartSourceType: plain:Line Charts
           ↓attr [ngx.components.UIControlEvent-1682074620175]: 
             ↓PushPage [ngx.components.UIDynamicAction-1682074627332]: 
               beanData: '{"ionBean":"PushPageAction","page":"plain:lib_apexcharts.Application.NgxApp.Line"}'
@@ -441,6 +279,9 @@ title: Sample
         ↓CardContainer [ngx.components.UIDynamicElement-1682074330271]: 
           beanData: '{"ionBean":"Card"}'
           tagName: ion-card
+          ↓LazyImage [ngx.components.UIDynamicElement-1685720887631]: 
+            beanData: '{"ionBean":"LazyImage","Src":"source:{\"filter\":\"Asset\",\"project\":\"lib_apexcharts\",\"input\":\"\",\"model\":{\"data\":[{\"asset\":\"''assets\\\/images\\\/area-chart.png''\"}],\"path\":\"\",\"prefix\":\"\",\"suffix\":\"\",\"custom\":\"\",\"useCustom\":false}}"}'
+            tagName: ion-img
           ↓CardHeader [ngx.components.UIDynamicElement-1682074330274]: 
             beanData: '{"ionBean":"CardHeader"}'
             tagName: ion-card-header
@@ -454,7 +295,7 @@ title: Sample
                   textValue: 
                     - xmlizable: 
                       - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
-                      - MobileSmartSourceType: plain:Area
+                      - MobileSmartSourceType: plain:Area Charts
           ↓Style [ngx.components.UIStyle-1682079791519]: 
             styleContent: 
               - xmlizable: 
@@ -476,8 +317,13 @@ title: Sample
                     	cursor: pointer;
                     }
                     '
+          ↓attr [ngx.components.UIControlEvent-1685716508292]: 
+            ↓PushPage [ngx.components.UIDynamicAction-1685716519958]: 
+              beanData: '{"ionBean":"PushPageAction","page":"plain:lib_apexcharts.Application.NgxApp.Area"}'
+              tagName: PushPage
       ↓colColumn [ngx.components.UIDynamicElement-1682074334321]: 
         beanData: '{"ionBean":"GridCol"}'
+        isEnabled: false
         tagName: ion-col
         ↓UseSharedComponent [ngx.components.UIUseShared-1682074334324]: 
           isEnabled: false

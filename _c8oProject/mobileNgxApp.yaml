@@ -67,6 +67,7 @@ tplProjectName: mobilebuilder_tpl_8_0_0_ngx
 ↓apexCharts [ngx.components.UISharedRegularComponent-1666262546239]: 🗏 mobileSharedComponents/apexCharts.yaml
 ↓Sample [ngx.components.PageComponent-1500538678074]: 🗏 mobilePages/Sample.yaml
 ↓Line [ngx.components.PageComponent-1682074462155]: 🗏 mobilePages/Line.yaml
+↓Area [ngx.components.PageComponent-1685715783201]: 🗏 mobilePages/Area.yaml
 ↓Style [ngx.components.UIStyle-1491635462437]: 
   comment: You can add some global application styles here
   styleContent: 
